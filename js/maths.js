@@ -18,6 +18,7 @@ document.querySelector('#btnCheckOut').onclick = function (event){
     <h2>Thành tiền: ${totalCost} vnd</h2>
     </div>`
     document.querySelector('#checkOutBox').innerHTML = contentHTML;
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 document.querySelector('#btnBill').onclick = function (event){
